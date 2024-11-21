@@ -18,4 +18,3 @@ This mod fixes this problem by reloading the world while also keeping the player
 - default is the `End`-key
 - you configure it by doing **Installation 3.** - copy the lines into `input.settings`
 - you can customize it by `IK_End` to the key of your choice
-
