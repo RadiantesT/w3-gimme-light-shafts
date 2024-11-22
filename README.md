@@ -14,6 +14,8 @@ This mod fixes this problem by reloading the world while also keeping the player
 	1. a) via console command - run GLS_gimmelightshafts
 	2. b) via keybind - press the configured key (default is the `End`-key)
 3. You did it! Good job! Now enjoy the game!
+Console Commnand <a href="https://www.youtube.com/watch?v=NzTqhcI7HqI">(Video Link)</a>
+Hotkey <a href="https://www.youtube.com/watch?v=lsEy6TrUTVQ">(Video Link)</a>
 ## Configure your Keybind
 - default is the `End`-key
 - you configure it by doing **Installation 3.** - copy the lines into `input.settings`
