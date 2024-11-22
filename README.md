@@ -11,10 +11,10 @@ This mod fixes this problem by reloading the world while also keeping the player
 ## How to Use
 1. Start the game and load your save.
 2. Once loaded run the fix:
-2. a) via console command - run GLS_gimmelightshafts
-2. b) via keybind - press the configured key (default is the `End`-key)
+	1. a) via console command - run GLS_gimmelightshafts
+	2. b) via keybind - press the configured key (default is the `End`-key)
 3. You did it! Good job! Now enjoy the game!
-## Configure the Keybind
+## Configure your Keybind
 - default is the `End`-key
 - you configure it by doing **Installation 3.** - copy the lines into `input.settings`
 - you can customize it by `IK_End` to the key of your choice
