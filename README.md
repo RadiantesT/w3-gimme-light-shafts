@@ -1,6 +1,6 @@
 # Gimme Light Shafts
 
-The Witcher 3 Next Gen Edition (ver 4.04 and maybe before) has the problem where with the AA settings `Off` or `FXAA` light shafts would not shown even when enabled.
+The Witcher 3 Next Gen Edition (ver 4.04 and maybe before) has the problem where with the AA settings set to `Off` or `FXAA` light shafts would not be shown even when enabled.
 This mod fixes this problem by reloading the world while also keeping the players location and ingame time intact.
 ## Installation
 1. Download and extract the `.zip`.
