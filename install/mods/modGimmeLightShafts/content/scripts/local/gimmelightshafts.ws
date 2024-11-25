@@ -10,11 +10,10 @@ struct GLS_Loadworld_Params {
 
 exec function GLS_gimmelightshafts()
 {	
-	gls_update_gls_loadworld_params();
-	gls_request_reload();
+	gls_update_params_and_reload();
 }
 
-function gls_update_gls_loadworld_params()
+function gls_update_params_and_reload()
 {
 	var gls_loadworld_params : GLS_Loadworld_Params;
 	
@@ -34,10 +33,6 @@ function gls_update_gls_loadworld_params()
 	gls_loadworld_params.weather_condition = GetWeatherConditionName();
 	gls_loadworld_params.game_time = theGame.GetGameTime();
 	theGame.set_gls_loadworld_params(gls_loadworld_params);
-}
-
-function gls_request_reload()
-{
 	theGame.gls_reload();
 }
 
@@ -45,8 +40,7 @@ class GLS_Input_Listener {
 	event On_gimmelightshafts(action : SInputAction)
 	{
 		if(IsPressed(action)) {
-			gls_update_gls_loadworld_params();
-			gls_request_reload();			
+			gls_update_params_and_reload();
 		}
 	}
 }
