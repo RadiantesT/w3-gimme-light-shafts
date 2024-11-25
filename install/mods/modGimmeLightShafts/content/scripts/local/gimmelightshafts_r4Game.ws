@@ -30,6 +30,7 @@ public function set_gls_loadworld_params(gls_loadworld_params : GLS_Loadworld_Pa
 @addMethod(CR4Game)
 public function gls_reload() 
 {
+	//set gls_reload_flag so that thePlayer.OnSpawned only reloads gls_loadworld_params when flag set
 	this.gls_reload_flag = true;
 	this.ScheduleWorldChangeToPosition(this.gls_loadworld_params.world_path, this.gls_loadworld_params.position, this.gls_loadworld_params.rotation);
 }

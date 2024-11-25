@@ -10,7 +10,7 @@ public var gls_input_listener : GLS_Input_Listener;
 		gls_input_listener = new GLS_Input_Listener in this;
 		theInput.RegisterListener(gls_input_listener, 'On_gimmelightshafts', 'GimmeLightShafts');
 	}
-	//altes Wetter und Zeit wiederherstellen
+	//reload old weather and time
 	if(theGame.get_gls_reload_flag()) {
 		gls_loadworld_params = theGame.get_gls_loadworld_params();
 		RequestWeatherChangeTo(gls_loadworld_params.weather_condition, 1.0f, false );

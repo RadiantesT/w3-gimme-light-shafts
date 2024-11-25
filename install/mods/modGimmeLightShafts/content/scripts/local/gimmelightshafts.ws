@@ -18,13 +18,16 @@ function gls_update_gls_loadworld_params()
 {
 	var gls_loadworld_params : GLS_Loadworld_Params;
 	
-	/*gls_loadworld_params = {/
-		theGame.GetWorld().GetDepotPath(),/
-		thePlayer.GetWorldPosition(),/
-		thePlayer.GetWorldRotation(),/
-		GetWeatherConditionName(),/
-		theGame.GetGameTime()/
-	};*/
+	/*
+	//ws syntax test pending
+	gls_loadworld_params = {
+		.world_path = theGame.GetWorld().GetDepotPath(),
+		.position = thePlayer.GetWorldPosition(),
+		.rotation = thePlayer.GetWorldRotation(),
+		.weather_condition = GetWeatherConditionName(),
+		.game_time = theGame.GetGameTime()
+	};
+	*/
 	gls_loadworld_params.world_path = theGame.GetWorld().GetDepotPath();
 	gls_loadworld_params.position = thePlayer.GetWorldPosition();
 	gls_loadworld_params.rotation = thePlayer.GetWorldRotation();
